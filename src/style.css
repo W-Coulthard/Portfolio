@@ -1,0 +1,267 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    background-color: white;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-bottom: 50px;
+
+}
+
+.hero {
+    background-color: #1c1d25;
+    height: 100vh;
+    color: white;
+    font-size: 30px;
+
+}
+
+footer {
+    background-color: #000000;
+    height: 500px;
+    color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-between;
+    font-size: 25px;
+}
+
+li {
+    text-decoration: none;
+    
+}
+
+h1 {
+    font-size:60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 25px;
+    margin: 0;
+    font-weight: 300;
+}
+
+.subtext {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.hero-area {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 80px;
+    margin-bottom: 200px;
+}
+
+.button {
+    background-color: coral;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.button:hover {
+    background-color: #fc9745;
+}
+
+.button:active {
+    background-color: #f18118;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.socials {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 20px;
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+}
+
+.sub-section-alternative {
+    display: flex;
+    padding: 80px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.project-card {
+    width: 500px;
+    height: 500px;
+    background-color: #1c1d25;
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    width: 450px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+.project-live-link {
+    text-decoration: none;
+    color: #fc9745;
+}
+
+.project-code-link {
+    text-decoration: none;
+    color: coral;
+}
+
+.project-live-link:hover {
+    color: #f18118;
+}
+
+.project-code-link:hover {
+    color: #fc9745;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.hamburger {
+    display: none;
+}
+
+.hamburger:hover {
+    outline: none;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        margin: 20px;
+        font-size: 30px;
+        color: white;
+        background-color: transparent;
+        border: none;
+        align-self: flex-end;
+    }
+
+    ul {
+        display: none;
+        margin: 0px;
+    }
+
+    ul.show {
+        display: block;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .logo {
+        display: none;
+}
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background:rgb(30,30,40); }
+form { max-width:420px; margin:50px auto; }
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #fc9745;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #f7d307; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:coral;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#fc9745; }
