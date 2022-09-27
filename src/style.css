@@ -15,7 +15,7 @@ section {
 }
 
 .hero {
-    background-color: #1c1d25;
+    background-color: #0b1444;
     height: 100vh;
     color: white;
     font-size: 30px;
@@ -39,6 +39,7 @@ ul {
     width: 500px;
     justify-content: space-around;
     font-size: 25px;
+    
 }
 
 li {
@@ -144,7 +145,7 @@ p {
 .project-card {
     width: 400px;
     height: 500px;
-    background-color: #1c1d25;
+    background-color: #070a1b;
     color: white;
     margin: 20px;
     padding: 20px;
