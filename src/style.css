@@ -4,14 +4,33 @@ body {
 }
 
 section {
-    background-color: white;
+    background-color:#ffffff;
 }
 
 .logo {
     width: 90px;
     height: 90px;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 50px;
+}
+
+nav {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 25px;
+    z-index: 99;
+}
+
+.socials {
+    display: flex;
+    position: absolute;
+    align-self: flex-end;
+    margin-left: 50px;
+}
+
+.social {
+    margin: 10px;
 }
 
 .hero {
@@ -21,16 +40,59 @@ section {
     font-size: 30px;
 }
 
-footer {
-    background-color: #000000;
-    color: white;
-    text-align: center;
-    padding: 80px;
+#myVideo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    
 }
 
-nav {
+.hero-area {
     display: flex;
+    position: absolute;
     justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.hero-text {
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+}
+
+/*Contact Button*/
+
+.button {
+    font-size: 20px;
+    padding: 5px 15px;
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    border-color: #7c7c7c;
+    background: linear-gradient(180deg,#e6e6e6 0%,rgba(0, 0, 0, 0.25) 49%, rgba(38, 38, 38, 0.6) 51%,rgba(0, 0, 0, 0.25) 100%);
+    border-radius: 5px;} 
+
+.button:hover {
+    font-size: 19px;
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    border-color: #7c7c7c;
+    background: linear-gradient(180deg,#e6e6e6 0%,rgba(0, 0, 0, 0.25) 49%, rgba(38, 38, 38, 0.6) 51%,rgba(0, 0, 0, 0.25) 100%);
+    border-radius: 5px;
+  }
+
+.button:active {
+    background-color: #f18118;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 ul {
@@ -61,53 +123,14 @@ p {
     font-weight: 300;
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .subtext {
     font-size: 20px;
     font-weight: 300;
-}
-
-.hero-area {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    align-items: center;
-}
-
-.hero-text {
-    margin-left: 80px;
-    margin-bottom: 200px;
-}
-
-.button {
-    background-color: coral;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    border-radius: 40px;
-}
-
-.button:hover {
-    background-color: #fc9745;
-}
-
-.button:active {
-    background-color: #f18118;
-    box-shadow: 0 5px #666;
-    transform: translateY(4px);
-}
-
-.socials {
-    padding-bottom: 200px;
-}
-
-.social {
-    margin: 20px;
 }
 
 .sub-section {
@@ -188,9 +211,13 @@ p {
     color: #fc9745;
 }
 
-a {
-    text-decoration: none;
+
+
+footer {
+    background-color: #000000;
     color: white;
+    text-align: center;
+    padding: 80px;
 }
 
 .hamburger {
@@ -199,6 +226,7 @@ a {
 
 .hamburger:hover {
     outline: none;
+    cursor: pointer;
 }
 
 .hamburger:focus {
@@ -208,32 +236,39 @@ a {
 @media only screen and (max-width: 1000px) {
     .hamburger {
         display: block;
-        margin: 20px;
+        margin-left: 50px;
+        margin-top: 25px;
         font-size: 30px;
         color: white;
         background-color: transparent;
         border: 0;
         align-self: flex-end;
+        z-index: 1;
     }
 
     ul {
         display: none;
         margin: 0px;
+
     }
 
     ul.show {
-        display: block;
+        display: flex;
+        position: absolute;
+        margin-left: 50px;
+        flex-direction: column; 
     }
 
     nav {
         display: flex;
-        flex-direction: column-reverse;
     }
 
     .logo {
         display: none;
 }
 }
+
+/*contact*/
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -290,14 +325,20 @@ textarea {
     z-index: 99;
     border: none;
     outline: none;
-    background-color: coral;
     color: white;
-    cursor: pointer;
     padding: 15px;
     border-radius: 10px;
     font-size: 18px;
+    backface-visibility: hidden;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    border-color: #7c7c7c;
+    background: linear-gradient(180deg,#e6e6e6 0%,rgba(0, 0, 0, 0.25) 49%, rgba(38, 38, 38, 0.6) 51%,rgba(0, 0, 0, 0.25) 100%);
+    border-radius: 5px;
   }
   
   #myBtn:hover {
+    font-size: 17px;
     background-color: #555; 
   }
