@@ -1,3 +1,5 @@
+/*Semantic UI*/
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -7,6 +9,49 @@ section {
     background-color:#ffffff;
 }
 
+nav {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    margin-top: 25px;
+    z-index: 99;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 25px;
+    
+}
+
+li {
+    text-decoration: none;
+}
+
+h1 {
+    font-size:60px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+    margin: 0;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Hero Section*/
+
 .logo {
     width: 90px;
     height: 90px;
@@ -14,12 +59,8 @@ section {
     margin-left: 50px;
 }
 
-nav {
-    display: flex;
-    position: absolute;
-    justify-content: space-between;
-    margin-top: 25px;
-    z-index: 99;
+.intro {
+    font-size: 30px;
 }
 
 .socials {
@@ -34,7 +75,6 @@ nav {
 }
 
 .hero {
-    background-color: #0b1444;
     height: 100vh;
     color: white;
     font-size: 30px;
@@ -95,44 +135,6 @@ nav {
     transform: translateY(4px);
 }
 
-ul {
-    display: flex;
-    list-style-type: none;
-    width: 500px;
-    justify-content: space-around;
-    font-size: 25px;
-    
-}
-
-li {
-    text-decoration: none;
-}
-
-h1 {
-    font-size:60px;
-    margin: 0;
-}
-
-h2 {
-    font-size: 40px;
-}
-
-p {
-    font-size: 25px;
-    margin: 0;
-    font-weight: 300;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.subtext {
-    font-size: 20px;
-    font-weight: 300;
-}
-
 .sub-section {
     display: flex;
     justify-content: space-around;
@@ -141,9 +143,15 @@ a {
     padding-bottom: 100px;
 }
 
+.subtext {
+    font-size: 20px;
+    font-weight: 300;
+}
+
 .skillset {
     width:350px;
     padding: 80px;
+    padding-top: 25px;
 }
 
 .skillset-container {
@@ -316,6 +324,8 @@ textarea {
   font-weight:700;
 }
 [type="submit"]:hover { background:#fc9745; }
+
+/* Back to top button */
 
 #myBtn {
     display: none;
