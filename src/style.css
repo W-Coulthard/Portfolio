@@ -103,6 +103,54 @@ a {
     margin-top: 200px;
 }
 
+.hamburger {
+    display: none;
+}
+
+.hamburger:hover {
+    outline: none;
+    cursor: pointer;
+}
+
+.hamburger:focus {
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger {
+        display: block;
+        margin-left: 50px;
+        margin-top: 25px;
+        font-size: 30px;
+        color: white;
+        background-color: transparent;
+        border: 0;
+        align-self: flex-end;
+        z-index: 1;
+    }
+
+    ul {
+        display: none;
+        margin: 0px;
+
+    }
+
+    ul.show {
+        display: flex;
+        position: absolute;
+        margin-left: 50px;
+        flex-direction: column; 
+    }
+
+    nav {
+        display: flex;
+    }
+
+    .logo {
+        display: none;
+}
+}
+
 /*Contact Button*/
 
 .button {
@@ -135,6 +183,8 @@ a {
     transform: translateY(4px);
 }
 
+/*About Section*/
+
 .sub-section {
     display: flex;
     justify-content: space-around;
@@ -165,6 +215,8 @@ a {
         flex-wrap: wrap;
     }
 }
+
+/*Projects Section*/
 
 .sub-section-alternative {
     display: flex;
@@ -219,7 +271,7 @@ a {
     color: #fc9745;
 }
 
-
+/*Contact Section*/
 
 footer {
     background-color: #000000;
@@ -228,55 +280,9 @@ footer {
     padding: 80px;
 }
 
-.hamburger {
-    display: none;
-}
 
-.hamburger:hover {
-    outline: none;
-    cursor: pointer;
-}
 
-.hamburger:focus {
-    outline: 0;
-}
-
-@media only screen and (max-width: 1000px) {
-    .hamburger {
-        display: block;
-        margin-left: 50px;
-        margin-top: 25px;
-        font-size: 30px;
-        color: white;
-        background-color: transparent;
-        border: 0;
-        align-self: flex-end;
-        z-index: 1;
-    }
-
-    ul {
-        display: none;
-        margin: 0px;
-
-    }
-
-    ul.show {
-        display: flex;
-        position: absolute;
-        margin-left: 50px;
-        flex-direction: column; 
-    }
-
-    nav {
-        display: flex;
-    }
-
-    .logo {
-        display: none;
-}
-}
-
-/*contact*/
+/*Contact Form*/
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
