@@ -6,7 +6,7 @@ body {
 }
 
 section {
-    background-color:#ffffff;
+    background-color:#faf8f8;
 }
 
 nav {
@@ -23,7 +23,6 @@ ul {
     width: 500px;
     justify-content: space-around;
     font-size: 25px;
-    
 }
 
 li {
@@ -86,7 +85,6 @@ a {
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-    
 }
 
 .hero-area {
@@ -228,11 +226,14 @@ a {
 .project-card {
     width: 400px;
     height: 500px;
-    background-color: #070a1b;
+    border-color: #7c7c7c;
+    background: linear-gradient(180deg,#e6e6e6 0%,rgba(0, 0, 0, 0.25) 49%, rgba(38, 38, 38, 0.6) 51%,rgba(0, 0, 0, 0.25) 100%);
+    border-radius: 5px;
     color: white;
     margin: 20px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 10px;
+    background-color: #000000;
 }
 
 .project-container {
@@ -250,25 +251,25 @@ a {
 .project-image {
     width: 350px;
     height: 200px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .project-live-link {
     text-decoration: none;
-    color: #fc9745;
+    color: #9e9e9e;
 }
 
 .project-code-link {
     text-decoration: none;
-    color: coral;
+    color: rgb(126, 125, 125);
 }
 
 .project-live-link:hover {
-    color: #f18118;
+    color: #696968;
 }
 
 .project-code-link:hover {
-    color: #fc9745;
+    color: #999897;
 }
 
 /*Contact Section*/
@@ -297,7 +298,7 @@ form { max-width:420px; margin:50px auto; }
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border:2px solid #fc9745;
+  border:2px solid #838282;
   transition: all 0.3s;
   padding: 13px;
   margin-bottom: 15px;
@@ -306,7 +307,7 @@ form { max-width:420px; margin:50px auto; }
   outline:0;
 }
 
-.feedback-input:focus { border:2px solid #f7d307; }
+.feedback-input:focus { border:2px solid #c1caf1; }
 
 textarea {
   height: 150px;
@@ -317,7 +318,8 @@ textarea {
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   width: 100%;
-  background:coral;
+  border-color: #7c7c7c;
+  background: linear-gradient(180deg,#e6e6e6 0%,rgba(0, 0, 0, 0.25) 49%, rgba(38, 38, 38, 0.6) 51%,rgba(0, 0, 0, 0.25) 100%);
   border-radius:5px;
   border:0;
   cursor:pointer;
@@ -329,7 +331,8 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#fc9745; }
+[type="submit"]:hover { background: linear-gradient(180deg,#e6e6e6 0%,rgba(31, 31, 31, 0.25) 49%, rgba(51, 51, 51, 0.6) 51%,rgba(17, 17, 17, 0.25) 100%);
+    ; }
 
 /* Back to top button */
 
@@ -342,9 +345,9 @@ textarea {
     border: none;
     outline: none;
     color: white;
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 30px;
     backface-visibility: hidden;
     cursor: pointer;
     display: inline-block;
@@ -355,6 +358,6 @@ textarea {
   }
   
   #myBtn:hover {
-    font-size: 17px;
+    font-size: 29px;
     background-color: #555; 
   }
