@@ -1,4 +1,5 @@
 /*Semantic UI*/
+
 html, body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -258,22 +259,10 @@ a {
     border-radius: 10px;
 }
 
-.project-live-link {
+.project-link {
     text-decoration: none;
-    color: #a8a7a7;
-}
-
-.project-code-link {
-    text-decoration: none;
-    color: rgb(136, 135, 135);
-}
-
-.project-live-link:hover {
-    color: #696968;
-}
-
-.project-code-link:hover {
-    color: #999897;
+    color: #bebdbd;
+    margin: 10px;
 }
 
 /*Contact Section*/
@@ -349,7 +338,6 @@ textarea {
     border: none;
     outline: none;
     color: white;
-    padding: 10px;
     border-radius: 10px;
     font-size: 30px;
     backface-visibility: hidden;
