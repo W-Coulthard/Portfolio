@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+    font-family: Calibri, 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgb(2, 2, 2);
+    font-size: 4em;
+}
+
+body {
+    background-image: url('images/pexels-djordje-petrovic-1416169.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 1em;
+  }
+
+a.button {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:#FFFFFF;
+    background-color:#200ec2;
+    text-align:center;
+    transition: all 0.2s;
+    overflow: hidden;
+    }
+
+    a.button:hover {
+    background-color:#292ce0;
+    }
+
+    @media all and (max-width:10em ){
+    a.button{
+    display:block;
+    margin:0.2em auto;
+    }
+    
+}
+
+p {
+    text-align: center;
+    }
+
+a {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(128, 128, 128, 0.068);
+    padding: .9em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+.contact {
+    
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #dfdddd;
+    text-decoration: none;
+}
+
+.contact:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact:active {
+    color: #ffffff;
+    text-decoration: none;
+}
