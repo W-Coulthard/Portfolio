@@ -1,3 +1,4 @@
+![Screenshot of Portfolio](/src/images/sShot.png)
 # Portfolio Project
 
 This is a portfolio website that showcases my work as a software developer. The website features an about me section, a project section, and a contact section.
