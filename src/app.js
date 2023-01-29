@@ -38,14 +38,18 @@ function topFunction() {
 /*Alert for contact form*/
 
 
-/*const submitButton = document.getElementById('submit-button')
+/*const submitButton = document.getElementById('submit-button');
 
-submitButton.addEventListener('click', submitReply)
+submitButton.addEventListener('click', submitReply);
 
 function submitReply() {
-    if () {
-    alert("Thank you for your message. I will get back to you as soon as possible.");
-} else {  
-    alert("Please fill out all fields.");
+const name = document.querySelector('input[name="name"]').value;
+const email = document.querySelector('input[name="email"]').value;
+const message = document.querySelector('textarea[name="text"]').value;
+
+if (name && email && message) {
+alert("Thank you for your message. I will get back to you as soon as possible.");
+} else {
+alert("Please fill out all fields.");
 }
-}*/
+};*/
